@@ -7,12 +7,12 @@ function CabinCard({ cabin }) {
 
   return (
     <div className="flex border-primary-800 border">
-      <div className="flex-1 ">
+      <div className="flex-1 relative">
         <Image
           src={image}
           fill
           alt={`Cabin ${name}`}
-          className="flex-1 border-r border-primary-800"
+          className="object-cover border-r border-primary-800"
         />
       </div>
       <div className="flex-grow">
